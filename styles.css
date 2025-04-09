@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2a2a2a;
+    font-family: Lora, 'sans-serif';
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.8rem;
+    margin-bottom: 1.3rem;
+}
+
+
+
+.title{
+    color:#f1c40f;
+    margin-bottom: 1.1rem;
+    text-align: center;
+}
+
+.sub-title{
+   color: #eeeeee;
+   margin-bottom: 1.8rem;
+   text-align: center;
+}
+
+.btn{
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    font-family: Lora;
+    padding: 0.6rem 1.2rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+    cursor: pointer;
+   
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    color: #28a745;   
+}
+
+.icon{
+    margin-left: 0.2rem;
+
+}
+
+.book-section{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+form{
+   max-width: 800px;
+   height: auto;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+    border:  2px solid #f1c40f;
+    border-radius: 5px;
+    background-color: #2e2e2e;
+  
+}
+
+.book-title{
+    margin-bottom: 0.7rem;
+    color: #f1c40f;
+}
+
+.book-section form fieldset label{
+    width: 100%;
+    margin-bottom: 0.5rem;
+    color: #eeeeee;
+}
+
+.book-section form fieldset input{
+    margin-bottom: 0.6rem;
+    padding: 0.2rem;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+
+dialog{
+   position: fixed;
+   top: 50%;
+   bottom: 50%;
+   margin: auto;
+
+}
+

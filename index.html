@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Library</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+<body>
+<main>
+    <header class="header">
+        <h1 class="title">Book Store <span class="icon"><i class="fa fa-book"></i></span></h1>
+        <p class="sub-title">Welcome to bookstore your personal space to add, track and manage your book collections.</p>
+        <button class="btn addABook">Add a Book</button>
+    </header>
+
+    <section class="book-section">  
+       
+        <dialog>
+        <form action="#" method="post" id="bookForm">
+            <fieldset class="book-info">
+                <h2 class="book-title">Please Add Book to Library</h2>
+                <label for="title">Title:(required)</label>
+                <input type="text" id="title" name="title" required >
+                <label for="author">Author: (required)</label>
+                <input type="text" id="author" name="author" required>
+                <label for="pages">Number of Pages (required)</label>
+                <input type="number" name="pages" id="pages" min="1" max="500" required>
+                <label for="read"><input type="checkbox" name="read" id="read"> Read</label>
+                <div class="button-container">
+                    <button class="submit btn  submitbtn"  type="submit">Submit</button>
+                    <button class="cancel btn" type="button">Cancel</button>
+                </div>
+            </fieldset>
+        </form>
+    </dialog>
+        <div class="main-container">
+        </div>
+    </section>
+</main>
+    <script src="script.js"></script>
+
+</body>
+</html>
